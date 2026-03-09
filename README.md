@@ -19,12 +19,11 @@ To implement a Support Vector Machine (SVM) model to classify food items and opt
    Define param_grid for 'C', 'kernel' ('linear', 'rbf'), and 'gamma' ('scale', 'auto').
    Use GridSearchCV (with cv=5, scoring='accuracy') to find the best hyperparameters by fitting    on the training data.
    Extract the best_estimator_ and print best_params_.
-7.Evaluate Model:
+7. Evaluate Model:
    Predict on the test set using best_model.predict(X_test).
    Calculate and print accuracy_score.
    Print classification_report.
    Generate and display a confusion_matrix using seaborn.heatmap.
-   Result: Conclude that the SVM model was successfully implemented and optimized for food classification.
 
 
 ## Program:
